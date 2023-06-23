@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wtp-djangoblog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-zaccco-wtpdjangoblog-bkluok4tp6u.ws-eu100.gitpod.io']
 
 
 # Application definition
@@ -40,9 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'cloudinary_storage'
+    'cloudinary_storage',
     'django.contrib.staticfiles',
-    'cloudinary'
+    'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
